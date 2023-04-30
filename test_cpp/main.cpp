@@ -17,7 +17,8 @@
 //
 // The full license can be retrieved at https://www.gnu.org/licenses/gpl-3.0.en.html
 
-#include "Normals.h"
+//#include "Normals.h"
+#include "../normals_hough/src/Normals.h"
 
 #include <boost/program_options.hpp>
 

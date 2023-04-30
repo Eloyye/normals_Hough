@@ -32,8 +32,8 @@ INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
 ## OPENMP
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp")
 
-include_directories(${CMAKE_SOURCE_DIR}/../python)
-include_directories(${CMAKE_SOURCE_DIR}/../third_party_includes)
+include_directories("${CMAKE_SOURCE_DIR}/../python")
+include_directories("${CMAKE_SOURCE_DIR}/../normals_hough/third_party_includes")
 
 ###########################
 ## Executable
