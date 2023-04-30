@@ -16,6 +16,7 @@
 # Computer Graphics Forum
 #
 # The full license can be retrieved at https://www.gnu.org/licenses/gpl-3.0.en.html
+cmake_minimum_required(VERSION 3.25)
 
 # If the pyx file is a C++ file, we should specify that here.
 set_source_files_properties(
